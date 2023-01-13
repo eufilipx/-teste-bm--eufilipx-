@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+
+body{
+	margin:0;
+	font-family: 'Noto Sans', sans-serif;
+	background: #201b2c;
+}
+
+	.btn{
+		background: #00ff88;
+		border-radius: 15px;
+		margin: 10px;
+		position: absolute top 100;
+		justify-content: left;
+		font-weight: bold;
+
+
+
+	}
+
+	.cad1{
+		color: #201b2c;
+		width: 55%;
+		height: 30%;
+		padding: 5px 0px 5px 5px;
+		font-size: 25px;
+		background: #00FF88;
+		border-radius: 15px;
+		font-family: 'Noto Sans', sans-serif;
+		
+
+
+			}
+
+
+.box{
+	border: 3px solid #00ff88;
+	color: white;
+	background: #2f2841;
+	padding: 15px 15px 15px 15px;
+	border-radius: 15px;
+	width: 55%; margin: 0px auto;"
+	box-shadow: 0px 10px 40px #00000056;
+
+
+
+}
+
+		.img{
+
+		width: 22%;
+	  position: absolute;
+	  top: 20%;
+	  left: 63%;
+	  transform: translate(-50%, -7%);
+
+	}
+
+
+
+
+.inputbox{
+	position:relative;
+}
+
+.inputuser{
+	background: none;
+	border: none;
+	border-bottom: solid white;
+	outline: none;
+	font-size: 15px;
+	width: 50%;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.labelinput{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+	transition: .5px;
+
+}
+/*animação preenchimento*/
+.inputuser:focus ~ .labelinput,
+.inputuser:valid~.labelinput{
+
+	top: -20px;
+	font-size:12px;
+	color: #00ff88;
+
+}
+
+#nascimento{
+	margin: 10px 0px 0px 0px;
+	padding: 8px;
+	border-radius: 10px;
+	outline: none;
+	font-size:15px ;
+	border: 2px solid #00ff88;
+	
+
+}
+
+#submit{
+	background: #00ff88;
+	color: #201b2c;
+	width: 100%;
+	border: none;
+	padding: 15px;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+/*animção trocar de cor botão submit*/
+#submit:hover{
+	background: #00cc86;
+}
